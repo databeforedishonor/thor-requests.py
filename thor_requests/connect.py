@@ -226,7 +226,7 @@ class Connect:
         Iterator[dict]
             The block, one by one
         '''
-        sleep_second = 1
+        sleep_second = .1
         cache = self.get_block('best')
         while True:
             new_block = self.get_block('best')
